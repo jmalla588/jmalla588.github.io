@@ -2,13 +2,20 @@
   <head>
     <title>Janak's Homepage!</title>
     <style>
-      @keyframes grow {
+      @keyframes show {
         0%   {transform: translateY(-100%);}
-        100% {transform: translateY(0);}
+        100%  {transform: translateY(0);}
       }
       .statictext {
         text-align: center;
-        animation: 1s ease-out 0s 1 grow;
+        animation: 1s ease-out 0s 1 show;
+	background: #d5e6f1;
+	color: #2f3d46;
+	padding: 10px;
+      }
+      html, body {
+	margin:0;
+	padding:0;
       }
     </style>
   </head>
@@ -17,7 +24,7 @@
   <h1>Welcome!</h1>
   <p>This website is undergoing reconstruction. Please come back later!</p>
 </div>
-
+<div class="waitwrapper"></div>
 </body>
 </html>
 
